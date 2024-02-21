@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(139, 128, 154);
+}
+p{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    border: 3px solid powderblue;
+    padding: 30px;
+    margin: 40px; 
+}
+h1{
+    text-align: center;
+}
+a:link{
+    content: "Click link";
+    background-color: rgb(3, 236, 3);
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+}
+a:hover, a:active{
+    background-color: rgb(2, 199, 2);
+    content: "Click?";
+}
+.link{
+    margin:auto;
+    border: 3px solid red;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    display:block;
+    margin:auto;
+    width: 30%;
+    border: 3px solid green;
+}
+table,td, th{
+    border:1px solid white;
+    border-radius: 30px;
+    border-collapse: collapse;
+    margin:auto;
+}
+table{
+    width:50%;
+    text-align: center;
+
+}
+th,td{
+    background-color: #96D4D4;
+}
+
